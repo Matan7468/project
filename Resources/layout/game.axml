@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:id="@+id/turns">
+		<Button
+			android:text="restart"
+			android:scaleType="fitCenter"
+			android:background="@android:color/transparent"
+			android:layout_width="0dp"
+			android:layout_height="75dp"
+			android:layout_weight="1"
+			android:id="@+id/rstbtn" />
+		<TextView
+			android:id="@+id/tvTurnsLeft"
+			android:gravity="center"
+			android:layout_weight="1"
+			android:layout_height="match_parent"
+			android:text="10"
+			android:textSize="35sp"
+			android:textStyle="bold"
+			android:textColor="@android:color/black"
+			android:layout_width="0dp"/>
+		<Button
+			android:text="skins"
+			android:scaleType="fitCenter"
+			android:background="@android:color/transparent"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="75dp"
+			android:id="@+id/skinsbtn"/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_marginTop="50dp"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center_horizontal"
+	  	android:layout_width="match_parent"
+        android:layout_height="450dp"
+	    android:orientation="vertical"
+		android:id="@+id/Game">
+	</LinearLayout>
+
+	<Button
+		android:text="hint"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:id="@+id/hintbtn"/>
+	<Button
+		android:text="Leader Board"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:id="@+id/LeaderBoardbtn"/>
+</LinearLayout>
